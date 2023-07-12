@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <!-- CSS Style link -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- «B13» All fonts and their variations are linked from Google Fonts Services -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>  
+    <title>My Homework #4</title>
+</head>
+
+<body>
+    <!-- This is the header tag that wraps the navigation options, web logo and  contacts info as well -->
+    <header class="header">
+        <div class="container container-header">
+        <!-- Nav tag as well known as Navigation wrapper -->
+        <nav>
+            <!-- This is the LOGO usually used in image or text as well, clickable for homepage only  -->
+            <a href="./index.html" class="logo"><span class="logo-colored">web</span><span>studio</span></a>
+            <!-- This is navigation list or option is resposible for exploring the webpage -->
+            <ul class="menu-nav list">
+                <li><a href="./index.html" class="nav">Studio</a></li>
+                <li><a href="./portfolio.html" class="nav active">Portfolio</a></li><!-- class Active will be highlighted the current page-->
+                <li><a href="./" class="nav">Contacts</a></li><!-- Contact will be in default link -->
+            </ul>
+        </nav>
+        <!-- 
+                This the Contact links, mostly in the rightside of navigation, reponsible for 
+                contacting email, telephone number, mobile number and 
+                social media links(fb,twitter,instagram,etc) 
+            -->
+        <ul class="menu-contact list">
+            <li><a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a></li>
+            <li><a href="tel:+110001111111" class="contact">+11 (000) 111-11-11</a></li>
+        </ul>
+        </div>
+    </header>
+    <!-- this is the Main tag that wraps the content of the webpage. -->
+    <main>
+        <section class="section">
+            <div class="container container-category">
+                <!-- function button to filter the classification of data -->
+                <ul class="filters list">
+                    <li>
+                        <button type="button" class="filter-btn active">
+                            All
+                        </button>
+                    </li><li>
+                        <button type="button" class="filter-btn">
+                            Web Site
+                        </button>
+                    </li><li>
+                        <button type="button" class="filter-btn">
+                            App
+                        </button>
+                    </li><li>
+                        <button type="button" class="filter-btn">
+                            Design
+                        </button>
+                    </li><li>
+                        <button type="button" class="filter-btn">
+                            Marketing
+                        </button>
+                    </li>
+                </ul>
+                <ul class="project-card list">
+                    <li>
+                        <a href="./" class="proj-cardlist">
+                            <img src="./images/filtered-img/app-1.jpg" alt="Banking App Interface Concept" width="360">
+                            <span class="proj-cardwrap">
+                                <h3>Banking App Interface Concept</h3>
+                                <p>
+                                    App
+                                </p>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./"  class="proj-cardlist">
+                            <img src="./images/filtered-img/marketing-1.jpg" alt="Cashless Payment" width="360">
+
+                            <span class="proj-cardwrap">
+                                <h3>Cashless Payment</h3>
+                                <p>
+                                    Marketing
+                                </p>    
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./"  class="proj-cardlist">
+                            <img src="./images/filtered-img/app-2.jpg" alt="Meditation App" width="360">
+                            <span class="proj-cardwrap">
+                                <h3>Meditation App</h3>
+                                <p>
+                                    App
+                                </p>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./"  class="proj-cardlist">
+                            <img src="./images/filtered-img/marketing-2.jpg" alt="Taxi Service" width="360">
+                            <span class="proj-cardwrap">
+                                <h3>Taxi Service</h3>
+                                <p>
+                                    Marketing
+                                </p>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./"  class="proj-cardlist">
+                            <img src="./images/filtered-img/design-1.jpg" alt="Screen Illustrations" width="360">
+                            <span class="proj-cardwrap">
+                                <h3>Screen Illustrations</h3>
+                                <p>
+                                    Design
+                                </p>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./"  class="proj-cardlist">
+                            <img src="./images/filtered-img/marketing-3.jpg" alt="Online Courses" width="360">
+                            <span class="proj-cardwrap">
+                                <h3>Online Courses</h3>
+                                <p>
+                                    Marketing
+                                </p>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./"  class="proj-cardlist">
+                            <img src="./images/filtered-img/design-2.jpg" alt="Instagram Stories Concept" width="360">
+                            <span class="proj-cardwrap">
+                                <h3>Instagram Stories Concept</h3>
+                                <p>
+                                    Design
+                                </p>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./"  class="proj-cardlist">
+                            <img src="./images/filtered-img/web-site-1.jpg" alt="Organic Food" width="360">
+                            <span class="proj-cardwrap">
+                                <h3>Organic Food</h3>
+                                <p>
+                                    Web Site
+                                </p>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./"  class="proj-cardlist">
+                            <img src="./images/filtered-img/web-site-2.jpg" alt="Fresh Coffee">
+                            <span class="proj-cardwrap">
+                                <h3>Fresh Coffee</h3>
+                                <p>
+                                    Web Site                
+                                </p>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <!-- This is the footer tag that wraps the logo, contact info, costumer services, FAQ etc. -->
+    <footer class="footer">
+        <div class="container container-footer">
+            <div class="footer-box">
+                <a href="./index.html" class="logo">
+                    <span class="logo-colored">web</span><span>studio</span>
+                </a>
+                <p>
+                    Increase the flow of customers and <br />
+                    sales for your business with digital <br />
+                    marketing & growth solutions.
+                </p>
+            </div>
+            <div class="footer-box">
+                <h4>Social media</h4>
+                <ul class="socmed-list list">
+                    <li>
+                        <a href="./" class="socmed-icon">
+                            <svg class="icon icon-socmed">
+                                <use xlink:href="./images/icon/social-media.svg#icon-instagram-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./" class="socmed-icon">
+                            <svg class="icon icon-socmed">
+                                <use xlink:href="./images/icon/social-media.svg#icon-twitter-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./" class="socmed-icon">
+                            <svg class="icon icon-socmed">
+                                <use xlink:href="./images/icon/social-media.svg#icon-facebook-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./" class="socmed-icon">
+                            <svg class="icon icon-socmed">
+                                <use xlink:href="./images/icon/social-media.svg#icon-linkedin-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>    
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

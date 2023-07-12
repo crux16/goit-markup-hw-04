@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <!-- CSS Style link -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- «B13» All fonts and their variations are linked from Google Fonts Services -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>  
+    <title>My Homework #4</title>
+</head>
+<body>
+    <!-- This is the header tag that wraps the navigation options, web logo and  contacts info as well -->
+    <header class="header">
+        <div class="container container-header">
+        <!-- Nav tag as well known as Navigation wrapper -->
+        <nav>
+            <!-- This is the LOGO usually used in image or text as well, clickable for homepage only  -->
+            <a href="./index.html" class="logo"><span class="logo-colored">web</span><span>studio</span></a>
+            <!-- This is navigation list or option is resposible for exploring the webpage -->
+            <ul class="menu-nav list">
+                <li><a href="./index.html" class="nav active">Studio</a></li><!-- class Active will be highlighted the current page-->
+                <li><a href="./portfolio.html" class="nav">Portfolio</a></li>
+                <li><a href="./" class="nav">Contacts</a></li><!-- Contact will be in default link -->
+            </ul>
+        </nav>
+        <!-- 
+            This the Contact links, mostly in the rightside of navigation, reponsible for 
+            contacting email, telephone number, mobile number and 
+            social media links(fb,twitter,instagram,etc) 
+        -->
+        <ul class="menu-contact list">
+            <li><a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a></li>
+            <li><a href="tel:+110001111111" class="contact">+11 (000) 111-11-11</a></li>
+        </ul>    
+        </div>
+    </header>
+    <!-- this is the Main tag that wraps the content of the webpage. -->
+    <main>
+        <!-- The main topic and content of the page -->
+        <section class="hero-image">
+            <div class="container container-hero">
+                <!-- This is the heading 1 tag only use once. -->
+                <h1 class="hero-top-banner">
+                    Effective Solutions <br />
+                    for Your Business
+                </h1>
+                <!-- This is the button tag. It has many action event for e.g. submitting your username and password-->
+                <button type="button" class="btn-primary">Order Service</button>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+            <!-- Section 1 of the content-->
+            <ul class="feature-section list">
+                <li>
+                    <div class="feat-icon">
+                        <svg class="icon icon-antenna-1" width="64" height="64">
+                            <use xlink:href="./images/icon/advantage.svg#icon-antenna-1"></use>
+                        </svg>
+                    </div>
+                    <h3>Strategy</h3>
+                    <p class="feat-desc">
+                        Our goal is to identify the business
+                        problem to walk away with the 
+                        perfect and creative solution. 
+                    </p>    
+                </li>
+                <li>
+                    <div class="feat-icon">
+                        <svg class="icon icon-clock-1" width="64" height="64">
+                            <use xlink:href="./images/icon/advantage.svg#icon-clock-1"></use>
+                        </svg>
+                    </div>
+                    <h3>Punctuality</h3>
+                    <p class="feat-desc">
+                        Bring the key message to the 
+                        brand's audience for the best price
+                        within the shortest possible time.
+                    </p>
+                </li>
+                <li>
+                    <div class="feat-icon">
+                        <svg class="icon icon-diagram-1" width="64" height="64">
+                            <use xlink:href="./images/icon/advantage.svg#icon-diagram-1"></use>
+                        </svg>
+                    </div>
+                    <h3>Diligence</h3>
+                    <p class="feat-desc">
+                        Research and confirm brands that 
+                        present the strongest digital growth 
+                        opportunities and minimize risk.
+                    </p>
+                </li>
+                <li>
+                    <div class="feat-icon">
+                        <svg class="icon icon-astronaut-1" width="64" height="64">
+                            <use xlink:href="./images/icon/advantage.svg#icon-astronaut-1"></use>
+                        </svg>
+                    </div>
+                    <h3>Technologies</h3>
+                    <p class="feat-desc">
+                        Design practice focused on digital 
+                        experiences. We bring forth a deep 
+                        passion for problem-solving.
+                    </p>
+                </li>
+            </ul>
+            </div>
+        </section>
+        <section class="section section-attached">
+            <div class="container">
+            <h2 class="section-title">What Are We Doing</h2>
+            <!-- This is list of images,All image are stored in root folder /images -->
+            <ul class="card list">
+                <li>
+                    <img src="images/01monitor.jpg" alt="Monitor" width="360" />
+                </li>
+                <li>
+                    <img src="images/02mobile.jpg" alt="Mobile" width="360" />
+                </li>
+                <li>
+                    <img src="images/03mobileandlaptop.jpg" alt="Both" width="360"  />
+                </li>
+            </ul>
+            </div>
+        </section>
+        <section class="section section-team">
+            <div class="container">
+            <h2 class="section-title">Our Team</h2>
+            <ul class="team-card list">
+                <li>
+                    <img src="./images/04MarkGuerrero.jpg" alt="Mark's Photo" width="264">
+                    <div class="card-content">
+                        <h3 class="card-title">Mark Guerrero</h3>
+                        <p class="card-text">
+                            Product Designer
+                        </p>
+                        <ul class="socmed-list list">
+                            <li>
+                                <a href="./" class="socmed-icon">
+                                    <svg class="icon icon-socmed">
+                                        <use xlink:href="./images/icon/social-media.svg#icon-instagram-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./" class="socmed-icon">
+                                    <svg class="icon icon-socmed">
+                                        <use xlink:href="./images/icon/social-media.svg#icon-twitter-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./" class="socmed-icon">
+                                    <svg class="icon icon-socmed">
+                                        <use xlink:href="./images/icon/social-media.svg#icon-facebook-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./" class="socmed-icon">
+                                    <svg class="icon icon-socmed">
+                                        <use xlink:href="./images/icon/social-media.svg#icon-linkedin-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>    
+                    </div>
+                </li>
+                <li>
+                    <img src="./images/05TomFord.jpg" alt="Tom's Photo" width="264" />
+                    <div class="card-content">
+                        <h3 class="card-title">Tom Ford</h3>
+                        <p class="card-text">
+                            Frontend Developer
+                        </p>
+                        <ul class="socmed-list list">
+                            <li>
+                                <a href="./" class="socmed-icon">
+                                    <svg class="icon icon-socmed">
+                                        <use xlink:href="./images/icon/social-media.svg#icon-instagram-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./" class="socmed-icon">
+                                    <svg class="icon icon-socmed">
+                                        <use xlink:href="./images/icon/social-media.svg#icon-twitter-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./" class="socmed-icon">
+                                    <svg class="icon icon-socmed">
+                                        <use xlink:href="./images/icon/social-media.svg#icon-facebook-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./" class="socmed-icon">
+                                    <svg class="icon icon-socmed">
+                                        <use xlink:href="./images/icon/social-media.svg#icon-linkedin-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>        
+                    </div>
+                </li>
+                <li>
+                    <img src="./images/06CamilaGarcia.jpg" alt="Camila's Photo" width="264" />
+                    <div class="card-content">
+                        <h3 class="card-title">Camila Garcia</h3>
+                        <p class="card-text">
+                            Marketing
+                        </p>
+                        <ul class="socmed-list list">
+                            <li>
+                                <a href="./" class="socmed-icon">
+                                    <svg class="icon icon-socmed">
+                                        <use xlink:href="./images/icon/social-media.svg#icon-instagram-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./" class="socmed-icon">
+                                    <svg class="icon icon-socmed">
+                                        <use xlink:href="./images/icon/social-media.svg#icon-twitter-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./" class="socmed-icon">
+                                    <svg class="icon icon-socmed">
+                                        <use xlink:href="./images/icon/social-media.svg#icon-facebook-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./" class="socmed-icon">
+                                    <svg class="icon icon-socmed">
+                                        <use xlink:href="./images/icon/social-media.svg#icon-linkedin-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <img src="./images/07DanielWilson.jpg" alt="Daniel's Photo" width="264" />
+                    <div class="card-content">
+                        <h3 class="card-title">Daniel Wilson</h3>
+                        <p class="card-text">
+                        UI Designer
+                        </p>
+                        <ul class="socmed-list list">
+                            <li>
+                                <a href="./" class="socmed-icon">
+                                    <svg class="icon icon-socmed">
+                                        <use xlink:href="./images/icon/social-media.svg#icon-instagram-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./" class="socmed-icon">
+                                    <svg class="icon icon-socmed">
+                                        <use xlink:href="./images/icon/social-media.svg#icon-twitter-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./" class="socmed-icon">
+                                    <svg class="icon icon-socmed">
+                                        <use xlink:href="./images/icon/social-media.svg#icon-facebook-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./" class="socmed-icon">
+                                    <svg class="icon icon-socmed">
+                                        <use xlink:href="./images/icon/social-media.svg#icon-linkedin-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>      
+                    </div>
+                </li>
+            </ul>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Customers</h2>
+                <ul class="card list">
+                    <li>
+                        <a href="./" class="client-list">
+                            <svg class="icon icon-client">
+                                <use xlink:href="./images/icon/clients.svg#icon-client-1"></use>
+                            </svg>
+                        </a>
+                    </li> 
+                    <li>
+                         <a href="./" class="client-list">
+                            <svg class="icon icon-client">
+                                <use xlink:href="./images/icon/clients.svg#icon-client-2"></use>
+                            </svg>
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="./" class="client-list">
+                            <svg class="icon icon-client">
+                                <use xlink:href="./images/icon/clients.svg#icon-client-3"></use>
+                            </svg>
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="./" class="client-list">
+                            <svg class="icon icon-client">
+                                <use xlink:href="./images/icon/clients.svg#icon-client-4"></use>
+                            </svg>
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="./" class="client-list">
+                            <svg class="icon icon-client">
+                                <use xlink:href="./images/icon/clients.svg#icon-client-5"></use>
+                            </svg>
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="./" class="client-list">
+                            <svg class="icon icon-client">
+                                <use xlink:href="./images/icon/clients.svg#icon-client-6"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <!-- This is the footer tag that wraps the logo, contact info, costumer services, FAQ etc. -->
+    <footer class="footer">
+        <div class="container container-footer">
+            <div class="footer-box">
+                <a href="./index.html" class="logo"><span class="logo-colored">web</span><span>studio</span></a>
+                <p>
+                    Increase the flow of customers and <br />
+                    sales for your business with digital <br />
+                    marketing & growth solutions.
+                </p>
+            </div>
+            <div class="footer-box">
+                <h3>Social media</h3>
+                <ul class="socmed-footer socmed-list list">
+                    <li>
+                        <a href="./" class="socmed-icon">
+                            <svg class="icon icon-socmed">
+                                <use xlink:href="./images/icon/social-media.svg#icon-instagram-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./" class="socmed-icon">
+                            <svg class="icon icon-socmed">
+                                <use xlink:href="./images/icon/social-media.svg#icon-twitter-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./" class="socmed-icon">
+                            <svg class="icon icon-socmed">
+                                <use xlink:href="./images/icon/social-media.svg#icon-facebook-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./" class="socmed-icon">
+                            <svg class="icon icon-socmed">
+                                <use xlink:href="./images/icon/social-media.svg#icon-linkedin-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>    
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
