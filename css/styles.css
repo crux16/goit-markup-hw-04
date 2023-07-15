@@ -185,13 +185,15 @@ body {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-.socmed-icon:hover {
+.socmed-icon:hover,
+.socmed-icon:focus {
     background-color: var(--sixth-color);
 }
 .socmed-icon:active {
     background-color: var(--third-color);
 }
-.client-list:hover  {
+.client-list:hover,
+.client-list:focus  {
     border-color: var(--sixth-color);
     fill: var(--sixth-color);
 }
@@ -277,9 +279,9 @@ body {
 }
 .proj-cardwrap {
     padding: 32px 16px;
-    border-top: 0;
-    text-align: left;
     border: 1px solid var(--fifth-color);
+    border-top: none;
+    text-align: left;
     background: var(--secondary-color);
 }
 .footer {
@@ -298,7 +300,12 @@ body {
 /* social media link icon etc. */
 .feat-icon {
     margin-bottom: 8px;
-    padding: 24px 100px;
+    width: 264px;
+    height: 112px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    display: flex;
     background-color: var(--fouth-color);
 }
 .socmed-list{
@@ -311,7 +318,10 @@ body {
 }
 .socmed-icon{
     display: flex;
-    padding: 12px;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
     background-color: var(--third-color);
 }
@@ -325,8 +335,12 @@ body {
     height: 56px;
 }
 .client-list {
-    border: 1px solid var(--eight-color);
-    fill: var(--eight-color);
-    padding: 16px 32px;
     display: flex;
+    width: 168px;
+    height: 88px;
+    align-items: center;
+    justify-content: center;
+    fill: var(--eight-color);
+    border-radius: 4px;
+    border: 1px solid var(--eight-color);
 }
