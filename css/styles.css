@@ -62,7 +62,7 @@ body {
     letter-spacing: 0.32px;
 }
 .contact{
-    color: var(--default-color);
+    color: var(--seventh-color);
     display: block;
     padding: 25px 0;
     line-height: 24px;
@@ -70,7 +70,7 @@ body {
 }
 .hero-image {
     background-color: var(--hero-cover);
-    background-blend-mode: multiply;
+    background-blend-mode: overlay;
     background-image: url("../images/people-office-1.jpg");
     color: var(--secondary-color);
 }
@@ -127,7 +127,8 @@ body {
     color: var(--third-color);
     background-color: var(--fouth-color);
     border: 1px solid var(--fifth-color);
-
+    
+    cursor: pointer;
     padding: 12px 24px;
 }
 .proj-cardlist {
@@ -158,26 +159,24 @@ body {
     color: var(--sixth-color);
 }
 .btn-primary:hover,
-.filters .filter-btn:hover{
+.filter-btn:hover,
+.filter-btn.active{
+    border-color: var(--third-color);
     box-shadow: 
     0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 
     0px 3px 1px 0px rgba(0, 0, 0, 0.10);
     color: var(--secondary-color, #FFFFFF);
     background-color: var(--sixth-color, #404BBF);
-    cursor: pointer;
 }
 .btn-primary:focus,
-.filters .filter-btn:focus{
+.filter-btn:focus{
+    border-color: var(--third-color);
     box-shadow: 
     0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 
     0px 3px 1px 0px rgba(0, 0, 0, 0.10);
     color: var(--secondary-color, #FFFFFF);
-    background-color: var(--third-color);
-}
-.filters .filter-btn.active {
-    color: var(--secondary-color);
     background-color: var(--third-color);
 }
 .proj-cardlist:hover {
@@ -197,9 +196,6 @@ body {
     fill: var(--sixth-color);
 }
 /* container, alignment and resizing */
-.centered-list {
-    margin: 0 auto;
-}
 .container {
     width: 1200px;
     padding: 0 21px;
